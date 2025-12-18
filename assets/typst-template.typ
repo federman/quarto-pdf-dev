@@ -159,8 +159,8 @@
     ]
   )
 
-  // Set the report body paragraph justification
-  set par(justify: true)
+  // Don't hyphenate text at the end of lines
+  set text(hyphenate: false)
 
   // Read in the report write up
   doc
